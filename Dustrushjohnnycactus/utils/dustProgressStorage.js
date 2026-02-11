@@ -1,4 +1,3 @@
-// ../utils/dustProgressStorage.js
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const KEY = 'DUST_RUSH_PROGRESS_V1';
@@ -9,7 +8,6 @@ const defaultState = {
   completedLevels: {},
   lastSelectedLevel: 1,
 
-  // ✅ сколько домов в городе уже починили (0..4)
   townFixed: 0,
 };
 
@@ -58,7 +56,6 @@ export async function setLastSelectedLevel(levelId) {
   return next;
 }
 
-// ✅ РЕМОНТ ДОМА: списывает boards и увеличивает townFixed
 export async function repairNextTownBuilding(cost = 30) {
   const state = await loadDustProgress();
   const fixed = Number(state.townFixed || 0);
