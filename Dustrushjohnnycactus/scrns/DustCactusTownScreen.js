@@ -11,6 +11,7 @@ import {
   Image as _iMg_6tVmQpLxZ7nR3aKs,
   Modal as _mDl_2Rm9xQpLzT7nVaKs,
   ScrollView as _sCv_9xQmTrL7pZaVnK4s,
+  Platform,
 } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import {
@@ -243,6 +244,7 @@ export default function _0xDsCcTs_1VaKsQpLxT7nR9mZ2() {
             visible={_aU_2Rm9xQpLzT7nVaKs}
             transparent
             animationType="fade"
+            statusBarTranslucent={Platform.OS === 'android'}
             onRequestClose={() => _sAU_9tVmQpLxZ7nR3aKs(false)}
           >
             <_vW_9tVmQpLxZ7nR3aKs style={_h$.mO_6mQpZtLxV8nR3aKs}>
@@ -301,6 +303,7 @@ export default function _0xDsCcTs_1VaKsQpLxT7nR9mZ2() {
             transparent
             animationType="fade"
             onRequestClose={() => _sMsg_9xQmTrL7pZaVnK4s(null)}
+            statusBarTranslucent={Platform.OS === 'android'}
           >
             <_vW_9tVmQpLxZ7nR3aKs style={_h$.mO_6mQpZtLxV8nR3aKs}>
               <_vW_9tVmQpLxZ7nR3aKs style={_h$.mC_7qPzLxVnT3mA9rKb}>

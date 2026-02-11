@@ -2,6 +2,7 @@ import React, {
   useMemo as _uMM_9xQmTrL7pZaVnK4s,
   useState as _uST_6mQpZtLxV8nR3aKs,
   useEffect as _uEF_2Rm9xQpLzT7nVaKs,
+  useCallback,
 } from 'react';
 import {
   View as _vW_9tVmQpLxZ7nR3aKs,
@@ -16,14 +17,17 @@ import {
   ScrollView as _sCv_9xQmTrL7pZaVnK4s,
   useWindowDimensions as _uWD_2Rm9xQpLzT7nVaKs,
   Share as _sHr_4pLxQnZ8tVmR2aKs,
+  Platform,
 } from 'react-native';
 import {
   useNavigation as _uNV_9xQmTrL7pZaVnK4s,
   useRoute as _uRT_7nR3aKsQpLxV8tZm,
+  useFocusEffect,
 } from '@react-navigation/native';
 import { markLevelCompletedAndReward } from '../utils/dustProgressStorage';
 import LinearGradient from 'react-native-linear-gradient';
 import { _dLv_7qPzLxVnT3mA9rKb } from '../data/dustLevels';
+import Orientation from 'react-native-orientation-locker';
 
 const _bg_6tVmQpLxZ7nR3aKs = require('../../assets/images/dusthomeappbg.png');
 const _cc_1VaKsQpLxT7nR9mZ2 = require('../../assets/images/dustcactus.png');
@@ -115,6 +119,14 @@ export default function DustPlay() {
     _sRs_6mQpZtLxV8nR3aKs(null);
     _sRw_2Rm9xQpLzT7nVaKs(false);
   };
+
+  useFocusEffect(
+    useCallback(() => {
+      Orientation.lockToPortrait();
+
+      return () => Orientation.unlockAllOrientations();
+    }, []),
+  );
 
   const _sb_4pLxQnZ8tVmR2aKs = async () => {
     const _nm_6mQpZtLxV8nR3aKs = parseInt(
@@ -236,6 +248,7 @@ export default function DustPlay() {
             transparent
             animationType="fade"
             onRequestClose={_cl_7nR3aKsQpLxV8tZm}
+            statusBarTranslucent={Platform.OS === 'android'}
           >
             <_vW_9tVmQpLxZ7nR3aKs style={_d$.mOv_7qPzLxVnT3mA9rKb}>
               <_iBg_4pLxQnZ8tVmR2aKs
