@@ -1,5 +1,5 @@
 import { NavigationContainer } from '@react-navigation/native';
-import StackNav from './Dustrushjohnnycactus/nav/StackNav';
+import StackNav from './DustRushJohnnyCactus/DustRushJohnnyRts/StackNav';
 
 const App = () => {
   return (
