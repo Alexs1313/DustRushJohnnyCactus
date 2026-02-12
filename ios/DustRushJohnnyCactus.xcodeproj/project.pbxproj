@@ -281,7 +281,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.RushJonnnyGolbDust;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JohnnyCactusDustRush;
 				PRODUCT_NAME = DustRushJohnnyCactus;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -308,7 +308,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.RushJonnnyGolbDust;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JohnnyCactusDustRush;
 				PRODUCT_NAME = DustRushJohnnyCactus;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";

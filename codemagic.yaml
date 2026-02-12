@@ -1,19 +1,19 @@
 workflows:
   ios-workflow:
-    name: 'RushJоnnnу: GоlbDust'
+    name: 'RushJonnny: GolbDust'
     max_build_duration: 120
     instance_type: mac_mini_m2
     integrations:
-      app_store_connect: RushJonnnyGolbDustAPIKey
+      app_store_connect: JohnnyCactusDustRushAPIKey
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.RushJonnnyGolbDust
+        bundle_identifier: com.JohnnyCactusDustRush
       vars:
-        BUNDLE_ID: com.RushJonnnyGolbDust
+        BUNDLE_ID: com.JohnnyCactusDustRush
         XCODE_WORKSPACE: DustRushJohnnyCactus.xcworkspace
         XCODE_SCHEME: DustRushJohnnyCactus
-        APP_STORE_APPLE_ID: 6758614283
+        APP_STORE_APPLE_ID: 6759113053
     scripts:
       - name: Install npm dependencies
         script: |
@@ -44,4 +44,4 @@ workflows:
       app_store_connect:
         auth: integration
         submit_to_app_store: true
-        copyright: 'RushJоnnnу: GоlbDust 2026'
+        copyright: 'RushJonnny: GolbDust 2026'
