@@ -21,7 +21,7 @@ const StackNav: React.FC = () => (
     />
     <DustRushJohnnyStack.Screen
       name="DustRushOnboard"
-      component={DustRushOnboard}
+      component={DustRushOnboar}
     />
     <DustRushJohnnyStack.Screen name="DustRushHome" component={DustRushHome} />
     <DustRushJohnnyStack.Screen
