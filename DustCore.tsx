@@ -1,7 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native';
 import StackNav from './DustRushJohnnyCactus/DustRushJohnnyRts/StackNav';
 
-const App = () => {
+const DustCore = () => {
   return (
     <NavigationContainer>
       <StackNav />
@@ -9,4 +9,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default DustCore;

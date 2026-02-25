@@ -13,8 +13,8 @@ import LinearGradient from 'react-native-linear-gradient';
 import { useNavigation, useFocusEffect } from '@react-navigation/native';
 import { loadDustProgress } from '../DustRushJohnnyUtls/dustProgressStorage';
 
-const backgroundImage = require('../../assets/images/dusthomeappbg.png');
-const cactusHeroImage = require('../../assets/images/dustcactus.png');
+const backgroundImage = require('../../assets/images/townBg.png');
+const cactusHeroImage = require('../../assets/images/story2.png');
 const cactusGradientImage = require('../../assets/images/bgcactusgr.png');
 const boardsIcon = require('../../assets/images/boards.png');
 
@@ -98,6 +98,7 @@ const DustRushHomeScreen: React.FC = () => {
                 dustHomeHeroImage,
                 {
                   opacity: cactusOpacity,
+                  right: 10,
                   transform: [{ scale: cactusScale }],
                 },
               ]}

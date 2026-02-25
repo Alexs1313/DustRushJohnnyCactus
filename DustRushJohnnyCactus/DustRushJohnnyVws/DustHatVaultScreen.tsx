@@ -14,7 +14,7 @@ import { useFocusEffect, useNavigation } from '@react-navigation/native';
 
 import { loadDustProgress } from '../DustRushJohnnyUtls/dustProgressStorage';
 
-const backgroundImage = require('../../assets/images/dusthomeappbg.png');
+const backgroundImage = require('../../assets/images/townBg.png');
 
 const hatItems = [
   { id: 1, image: require('../../assets/images/dusthat1.png') },
@@ -136,9 +136,7 @@ export default function HatVaultScreen() {
                     key={hat.id}
                     unlocked={unlocked}
                     image={hat.image}
-                    onPress={() => {
-                      // navigation.navigate('...', { hatId: hat.id })
-                    }}
+                    onPress={() => {}}
                   />
                 );
               })}
@@ -220,4 +218,8 @@ const dustHatLockWrapper = {
   justifyContent: 'center' as const,
 };
 
-const dustHatHatImage = { width: 120, height: 65 };
+const dustHatHatImage = {
+  width: 120,
+  height: 65,
+  resizeMode: 'contain' as const,
+};

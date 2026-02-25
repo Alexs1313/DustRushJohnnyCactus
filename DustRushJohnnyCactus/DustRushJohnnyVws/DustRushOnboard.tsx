@@ -13,10 +13,10 @@ import {
 
 const backgroundImages = [
   require('../../assets/images/dustloaderonbg.png'),
-  require('../../assets/images/dustloaderonbg2.png'),
-  require('../../assets/images/dustloaderonbg3.png'),
-  require('../../assets/images/dustloaderonbg4.png'),
-  require('../../assets/images/dustloaderonbg5.png'),
+  require('../../assets/images/on1.png'),
+  require('../../assets/images/on2.png'),
+  require('../../assets/images/on3.png'),
+  require('../../assets/images/on4.png'),
 ];
 
 const titleImages = [
@@ -98,7 +98,14 @@ const DustRushOnboard: React.FC = () => {
     }, 180);
 
     return () => clearTimeout(buttonDelay);
-  }, [currentIndex, titleOpacity, titleScale, titleTranslateY, buttonOpacity, buttonScale]);
+  }, [
+    currentIndex,
+    titleOpacity,
+    titleScale,
+    titleTranslateY,
+    buttonOpacity,
+    buttonScale,
+  ]);
 
   const handleNext = () => {
     if (currentIndex === 4) {

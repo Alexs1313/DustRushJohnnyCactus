@@ -21,7 +21,7 @@ import {
 import type { DustLevel } from '../DustRushJohnnyDt/dustLevels';
 import { dustLevels } from '../DustRushJohnnyDt/dustLevels';
 
-const backgroundImage = require('../../assets/images/dusthomeappbg.png');
+const backgroundImage = require('../../assets/images/townBg.png');
 
 type HeaderBarProps = {
   title: string;

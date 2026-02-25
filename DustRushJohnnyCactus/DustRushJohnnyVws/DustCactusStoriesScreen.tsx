@@ -111,20 +111,22 @@ export default function CactusStoriesScreen() {
   const stories = useMemo(
     () => [
       {
-        id: 1,
-        title: 'Saloon Cactus – Bartender',
-        image: require('../../assets/images/story1.png'),
+        id: 4,
+        title: 'Local Cactus Mom – With Kids',
+        image: require('../../assets/images/story4.png'),
         body:
-          '"No music. No laughter. Just silence."\n' +
-          'That’s what my saloon became after the storm.\n' +
-          'Broken chairs, smashed bottles,\n' +
-          'dust everywhere.\n' +
-          'I thought the party was over for good.\n' +
-          'But you brought the boards.\n' +
-          'You raised the walls again.\n' +
-          'Now the piano plays.\n' +
-          'Glasses clink.\n' +
-          'Stories flow like whiskey.',
+          '"Mom... where will we sleep now?"\n' +
+          'That’s what my little cactus asked after the storm.\n' +
+          'Our roof was gone.\n' +
+          'Windows broken. Everything felt cold.\n' +
+          'I tried to smile. But inside... I was scared.\n\n' +
+          'Then you came.\n' +
+          'You rebuilt our home.\n' +
+          'You gave my kids a safe place again.\n' +
+          'Now they laugh.\n' +
+          'They play.\n' +
+          'They dream.\n\n' +
+          "Thank you for giving us our home back. You're our hero.",
       },
       {
         id: 2,
@@ -161,22 +163,20 @@ export default function CactusStoriesScreen() {
           'Thank you, friend. You saved more than a stable — you saved my heart.',
       },
       {
-        id: 4,
-        title: 'Local Cactus Mom – With Kids',
-        image: require('../../assets/images/story4.png'),
+        id: 1,
+        title: 'Saloon Cactus – Bartender',
+        image: require('../../assets/images/story1.png'),
         body:
-          '"Mom... where will we sleep now?"\n' +
-          'That’s what my little cactus asked after the storm.\n' +
-          'Our roof was gone.\n' +
-          'Windows broken. Everything felt cold.\n' +
-          'I tried to smile. But inside... I was scared.\n\n' +
-          'Then you came.\n' +
-          'You rebuilt our home.\n' +
-          'You gave my kids a safe place again.\n' +
-          'Now they laugh.\n' +
-          'They play.\n' +
-          'They dream.\n\n' +
-          "Thank you for giving us our home back. You're our hero.",
+          '"No music. No laughter. Just silence."\n' +
+          'That’s what my saloon became after the storm.\n' +
+          'Broken chairs, smashed bottles,\n' +
+          'dust everywhere.\n' +
+          'I thought the party was over for good.\n' +
+          'But you brought the boards.\n' +
+          'You raised the walls again.\n' +
+          'Now the piano plays.\n' +
+          'Glasses clink.\n' +
+          'Stories flow like whiskey.',
       },
     ],
     [],

@@ -34,8 +34,8 @@ import { markLevelCompletedAndReward } from '../DustRushJohnnyUtls/dustProgressS
 
 type ResultState = 'win' | 'lose' | null;
 
-const BG_IMG = require('../../assets/images/dusthomeappbg.png');
-const CACTUS_IMG = require('../../assets/images/dustcactus.png');
+const BG_IMG = require('../../assets/images/townBg.png');
+const CACTUS_IMG = require('../../assets/images/story2.png');
 
 function HeaderBar({ title, onBack }: { title: string; onBack: () => void }) {
   return (
@@ -374,9 +374,9 @@ const dustPlayBody = {
 };
 
 const dustPlayCard: ViewStyle = {
-  width: '86%',
-  maxWidth: 280,
-  height: 370,
+  width: '92%',
+  maxWidth: 310,
+  height: 390,
   borderRadius: 12,
   borderWidth: 3,
   borderColor: '#824021',
