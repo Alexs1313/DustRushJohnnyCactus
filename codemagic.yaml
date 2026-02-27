@@ -4,16 +4,16 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m2
     integrations:
-      app_store_connect: JohnnyRushDusttAPIKey
+      app_store_connect: JohnnyRushDusttNewAPIKey
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.dowpqwoeowe.qwewe.duwetwe
+        bundle_identifier: com.dowpqwoddseowe.qwewe.duwetwe
       vars:
-        BUNDLE_ID: com.dowpqwoeowe.qwewe.duwetwe
+        BUNDLE_ID: com.dowpqwoddseowe.qwewe.duwetwe
         XCODE_WORKSPACE: DustRushJohnnyCactus.xcworkspace
         XCODE_SCHEME: DustRushJohnnyCactus
-        APP_STORE_APPLE_ID: 6759669771
+        APP_STORE_APPLE_ID: 6759781914
     scripts:
       - name: Install npm dependencies
         script: |

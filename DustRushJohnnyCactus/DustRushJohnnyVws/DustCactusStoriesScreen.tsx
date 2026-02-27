@@ -115,17 +115,16 @@ export default function CactusStoriesScreen() {
         title: 'Local Cactus Mom – With Kids',
         image: require('../../assets/images/story4.png'),
         body:
-          '"Mom... where will we sleep now?"\n' +
-          'That’s what my little cactus asked after the storm.\n' +
+          '"Mom... where will we sleep now?" That’s what my little cactus asked after the storm.\n' +
           'Our roof was gone.\n' +
           'Windows broken. Everything felt cold.\n' +
-          'I tried to smile. But inside... I was scared.\n\n' +
+          'I tried to smile. But inside... I was scared.' +
           'Then you came.\n' +
           'You rebuilt our home.\n' +
           'You gave my kids a safe place again.\n' +
           'Now they laugh.\n' +
           'They play.\n' +
-          'They dream.\n\n' +
+          'They dream.' +
           "Thank you for giving us our home back. You're our hero.",
       },
       {
