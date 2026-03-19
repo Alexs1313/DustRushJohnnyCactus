@@ -359,7 +359,7 @@ const dustStoriesEmptyWrapper = {
   flex: 1,
   alignItems: 'center' as const,
   justifyContent: 'center' as const,
-  paddingHorizontal: 24,
+  paddingHorizontal: 23,
 };
 
 const dustStoriesEmptyText = {
