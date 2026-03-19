@@ -79,7 +79,7 @@ android {
 
     namespace "com.dustrushjohnnycactus"
     defaultConfig {
-        applicationId "com.dustrushjohnnycactus"
+        applicationId "com.rushjonnnygolbdust"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
